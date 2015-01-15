@@ -10,6 +10,7 @@ alias c='clear'
 alias l='ls'
 alias ls='ls -G'
 alias dt='cd ~/Desktop'
+alias downloads='cd ~/Downloads'
 alias clean='rm -i *.class *~'
 alias school='cd ~/Documents/Documents/Docs/Columbia\ University'
 
