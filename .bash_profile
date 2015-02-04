@@ -14,6 +14,10 @@ alias downloads='cd ~/Downloads'
 alias clean='rm -i *.class *~'
 alias school='cd ~/Documents/Documents/Docs/Columbia\ University'
 
+function mcd()
+{
+    test -e $1 || mkdir $1; cd $1;
+}
 
 # Networking Stuff
 alias myip='curl ip.appspot.com'
